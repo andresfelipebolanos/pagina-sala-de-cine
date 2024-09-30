@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>TEATRO APOLO - Cartelera</title>
+</head>
+<body>
+	<header>
+		<nav class="btnmenu">
+			<div class="dropdown">
+				<button id="btnmenu">MENU</button>
+				<div class="dropdown-content">
+				<a href="INDEX.html">CARTELERA</a>
+				<a href="formularioContacto.html">FORMULARIO DE CONTACTO</a>
+			</div>
+		</nav>
+		<nav class="navbar">
+			
+			<div class="titulo">
+				<h1>
+					TEATRO APOLO 
+				</h1>
+			</div>
+			<div class="sesion">
+					<label for="horario">Horario</label>
+					<select name="HORARIO" id="horarios">
+						<option value="Mañana">Mañana</option>
+						<option value="Tarde">Tarde</option>
+						<option value="Noche">Noche</option>
+					</select>
+			</div>
+			
+			<div>
+				<input type="search" name="search" id="search" placeholder="Buscar">
+			</div>
+		</nav>
+	</header>
+
+	<main class="content">
+		<section class="ficha-tecnica">
+			<ul>
+				<li>
+					<img src="images/360 X 500mivillano4.jpg" alt="Película 7" onclick="document.location='fichatecnica7.html'">
+                    <h2>Mi Villano Favorito 4</h2>
+				</li>
+				<div class="fecha">
+					<a href="">
+						<li>Fecha y hora</li>
+					</a>
+				</div>
+				<div class="sala">
+					<a href="">
+						<li>Sala</li>
+					</a>
+				</div>
+			</ul>
+		</section>
+		<section class="sillas">
+			<form>
+			<div>
+				<div>
+					<label for="silla">A1</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="A1">
+				</div>
+				<div>
+					<label for="silla">A2</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="A2">
+				</div>
+				<div>
+					<label for="silla">A3</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="E1">
+				</div>
+				<div>
+					<label for="silla">A4</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="E2">
+				</div>
+				<div>
+					<label for="silla">A5</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="I1">
+				</div>
+				<div>
+					<label for="silla">B1</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="I2">
+				</div>
+				<div>
+					<label for="silla">B2</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="O1">
+				</div>
+				<div>
+					<label for="silla">B3</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="O2">
+				</div>
+				<div>
+					<label for="silla">B4</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="U1">
+				</div>
+				<div>
+					<label for="silla">B5</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="U2">
+				</div>
+				<div>
+					<label for="silla">C1</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="A1">
+				</div>
+				<div>
+					<label for="silla">C2</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="A2">
+				</div>
+				<div>
+					<label for="silla">C3</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="E1">
+				</div>
+				<div>
+					<label for="silla">C4</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="E2">
+				</div>
+				<div>
+					<label for="silla">C5</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="I1">
+				</div>
+				<div>
+					<label for="silla">D1</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="A1">
+				</div>
+				<div>
+					<label for="silla">D2</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="A2">
+				</div>
+				<div>
+					<label for="silla">D3</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="E1">
+				</div>
+				<div>
+					<label for="silla">D4</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="E2">
+				</div>
+				<div>
+					<label for="silla">D5</label>
+					<img src="img/silla.png" alt="" width="75px">
+					<input type="checkbox" id="" name="I1">
+				</div>
+            </div>
+				<button type="submit">Seleccionar sillas</button>
+				<br>
+				<button onclick="document.location='INDEX.html'">Ver cartelera</button>
+			</form>
+		</section>
+	</main>
+</body>
+</html>

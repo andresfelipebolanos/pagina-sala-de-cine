@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="form.css">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <header>
+        <nav class="btnmenu">
+            <div class="dropdown">
+                <button id="btnmenu">MENU</button>
+                <div class="dropdown-content">
+                <a href="INDEX.html">CARTELERA</a>
+                <a href="formularioContacto.html">FORMULARIO DE CONTACTO</a>
+            </div>
+        </nav>
+        <nav class="navbar">
+            
+            <div class="titulo">
+                <h1>
+                    TEATRO APOLO 
+                </h1>
+            </div>
+            <div class="sesion">
+                    <label for="horario">Horario</label>
+                    <select name="HORARIO" id="horarios">
+                        <option value="Mañana">Mañana</option>
+                        <option value="Tarde">Tarde</option>
+                        <option value="Noche">Noche</option>
+                    </select>
+            </div>
+            
+            <div>
+                <input type="search" name="search" id="search" placeholder="Buscar">
+            </div>
+        </nav>
+    </header>
+    <div class="contenido">
+		<form action="" id="formulario">
+			<h1>Formulario de Contacto</h1>
+			<div class="input-control">
+				<label for="lblNombre">Nombre:</label>
+				<input type="text" name="nombre" id="txtNombre" >
+				<div class="error"></div>
+            </div>            
+            <br>
+            <div class="input-control">
+                <label for="lblEmail">Email:</label>
+                <input type="email" name="email" id="txtemail" >
+                <div class="error"></div>
+            </div>
+            <br>
+            <div class="input-control" id="desplegable" >
+                <label for="lblAsunto">Asunto:</label>
+                <select name="Asunto" id="txtasunto" >
+                    <option value="Trabaja con nosotros">Trabaja con nosotros</option>
+                    <option value="Objetos perdidos">Objetos perdidos</option>
+                    <option value="Empresas">Empresas</option>
+                    <option value="Otro motivo">Otro motivo</option>
+                </select>
+                <div class="error"></div>
+            </div>
+            <br>    
+            <div class="input-control">
+                <label for="lblMensaje">Mensaje:</label>
+                <textarea name="Mensaje" id="txtmensaje" rows="4" cols="50" ></textarea>
+                <div class="error"></div>
+            </div>
+            <br>
+            <div class="check">
+                <input type="checkbox" name="Consentimiento" id="check" />He leido y doy consentimiento expreso a la politica de datos personales del Teatro Apolo 
+                <div class="error"></div>
+            </div>
+            <br>    
+            <div>
+                <button type="submit">enviar</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Teatro APOLO. Derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>         
+</body>
+</html>

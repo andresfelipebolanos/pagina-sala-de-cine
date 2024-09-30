@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>TEATRO APOLO - Cartelera</title>
+</head>
+<body>
+        <header>
+            <nav class="btnmenu">
+                <div class="dropdown">
+                    <button id="btnmenu">MENU</button>
+                    <div class="dropdown-content">
+                    <a href="INDEX.html">CARTELERA</a>
+                    <a href="formularioContacto.html">FORMULARIO DE CONTACTO</a>
+                </div>
+            </nav>
+            <nav class="navbar">
+                
+                <div class="titulo">
+                    <h1>
+                        TEATRO APOLO 
+                    </h1>
+                </div>
+                <div class="sesion">
+                        <label for="horario">Horario</label>
+                        <select name="HORARIO" id="horarios">
+                            <option value="Mañana">Mañana</option>
+                            <option value="Tarde">Tarde</option>
+                            <option value="Noche">Noche</option>
+                        </select>
+                </div>
+                
+                <div>
+                    <input type="search" name="search" id="search" placeholder="Buscar">
+                </div>
+            </nav>
+        </header>
+        <main id="main">
+            <section class="movie-list">
+                <div class="movie">
+                    <img src="images/The_Wild_Robot_third_poster.jpg" alt="Película 1" onclick="document.location='fichatecnica1.html'">
+                    <h2>The Wild Robot</h2>
+                    <h3>+10.</h3>
+                    <button type="button">FICHA TÉCNICA</button>
+                </div>
+                
+                <div class="movie">
+                    <img src="images/Transformers_One-329708311-large.jpg" alt="Película 2" onclick="document.location='fichatecnica2.html'">
+                    <h2>Transformers Uno</h2>
+                    <h3>+10.</h3>
+                    <button type="button">FICHA TÉCNICA</button>
+                </div>
+
+                <div class="movie">
+                    <img src="images/No_hables_con_extraanos-102462605-large.jpg" alt="Película 3" onclick="document.location='fichatecnica3.html'">
+                    <h2>No Hables Con Extraños</h2>
+                    <h3>+16.</h3>
+                    <button type="button" onclick="document.location='fichatecnica.html'">FICHA TÉCNICA</button>
+                </div>
+
+                <div class="movie">
+                    <img src="images/beetlejuice-2-afiche-oficial-486x720.png" alt="Película 4" onclick="document.location='fichatecnica4.html'">
+                    <h2>Beetlejuice Beetlejuice</h2>
+                    <h3>+13.</h3>
+                    <button href="fichatecnica.html">FICHA TÉCNICA</button>
+                </div>
+
+                </div>
+                <div class="movie">
+                    <img src="images/360 X 500 kill.jpg" alt="Película 5" onclick="document.location='fichatecnica5.html'">
+                    <h2>KILL: Masacre en el Tren</h2>
+                    <h3>+16.</h3>
+                    <button class="boton" href="fichatecnica1.html">FICHA TÉCNICA</button>
+                </div>
+
+                </div>
+                <div class="movie">
+                    <img src="images/Deadpool-3-poster-1.jpg" alt="Película 6" onclick="document.location='fichatecnica6.html'">
+                    <h2>Deadpool & Wolverine</h2>
+                    <h3>+18.<h3>
+                    <button class="boton" href="fichatecnica1.html">FICHA TÉCNICA</button>
+                </div>
+
+                </div>
+                <div class="movie">
+                    <img src="images/360 X 500mivillano4.jpg" alt="Película 7" onclick="document.location='fichatecnica7.html'">
+                    <h2>Mi Villano Favorito 4</h2>
+                    <h3>+7.</h3>
+                    <button class="boton" href="fichatecnica1.html">FICHA TÉCNICA</button>
+                </div>
+
+                </div>
+                <div class="movie">
+                    <img src="images/poster-the-substance-664ca00b33247.jpg" alt="Película 8" onclick="document.location='fichatecnica8.html'">
+                    <h2>The Substance</h2>
+                    <h3>+18.</h3>
+                    <button class="boton" href="fichatecnica1.html">FICHA TÉCNICA</button>
+                </div>
+                </section>
+                
+        </main>
+        <footer>
+            <p>&copy; 2024 Teatro APOLO. Derechos reservados.</p>
+        </footer>
+</body>
+</html>

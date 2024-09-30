@@ -1,0 +1,71 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>FICHA TÉCNICA</title>
+</head>
+<body>
+    <header>
+        <nav class="btnmenu">
+            <div class="dropdown">
+                <button id="btnmenu">MENU</button>
+                <div class="dropdown-content">
+                <a href="INDEX.html">CARTELERA</a>
+                <a href="formularioContacto.html">FORMULARIO DE CONTACTO</a>
+            </div>
+        </nav>
+        <nav class="navbar">
+            
+            <div class="titulo">
+                <h1>
+                    TEATRO APOLO 
+                </h1>
+            </div>
+            <div class="sesion">
+                    <label for="horario">Horario</label>
+                    <select name="HORARIO" id="horarios">
+                        <option value="Mañana">Mañana</option>
+                        <option value="Tarde">Tarde</option>
+                        <option value="Noche">Noche</option>
+                    </select>
+            </div>
+            
+            <div>
+                <input type="search" name="search" id="search" placeholder="Buscar">
+            </div>
+        </nav>
+    </header>
+    <main>
+    <section>
+        <div class="movie">
+            <img src="images/No_hables_con_extraanos-102462605-large.jpg" alt="Película 3">
+            <h2>No Hables Con Extraños</h2>
+        </div>
+        <div id="sinopsis">
+            <h2>Sinopsis</h2>
+            <p><span>TRANSFORMERS ONE es la historia jamás contada del origen de Optimus Prime y Megatron y de cómo pasaron de ser 
+                hermanos de armas que cambiaron el destino de Cybertron para siempre, a convertirse en enemigos acérrimos. La primera película 
+                de Transformers animada totalmente por CGI, cuenta con un reparto de voces repleto de estrellas, como Chris Hemsworth, 
+                Brian Tyree Henry, Scarlett Johansson, Keegan-Michael Key, Steve Buscemi, con Laurence Fishburne, y Jon Hamm.</span></p>
+        </div>
+        <div>
+            <h2>FICHA TÉCNICA</h2>
+            <ul>
+                <li><strong>Género: Terror, Suspenso</strong></li>
+                <li><strong>Duración: 120 minutos.</strong></li>
+                <li><strong>Clasificación: +16</strong></li>
+            </ul>
+        </div>
+    </section>
+    <section class="section">
+        <button onclick="document.location='sillas3.html'">Reservar Sillas</button>
+        <button onclick="document.location='cartelera.html'">Ver cartelera</button>
+    </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Teatro APOLO. Derechos reservados.</p>
+    </footer>
+</body>
+</html>

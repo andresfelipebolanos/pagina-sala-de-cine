@@ -1,0 +1,71 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>FICHA TÉCNICA</title>
+</head>
+<body>
+    <header>
+        <nav class="btnmenu">
+            <div class="dropdown">
+                <button id="btnmenu">MENU</button>
+                <div class="dropdown-content">
+                <a href="INDEX.html">CARTELERA</a>
+                <a href="formularioContacto.html">FORMULARIO DE CONTACTO</a>
+            </div>
+        </nav>
+        <nav class="navbar">
+            
+            <div class="titulo">
+                <h1>
+                    TEATRO APOLO 
+                </h1>
+            </div>
+            <div class="sesion">
+                    <label for="horario">Horario</label>
+                    <select name="HORARIO" id="horarios">
+                        <option value="Mañana">Mañana</option>
+                        <option value="Tarde">Tarde</option>
+                        <option value="Noche">Noche</option>
+                    </select>
+            </div>
+            
+            <div>
+                <input type="search" name="search" id="search" placeholder="Buscar">
+            </div>
+        </nav>
+    </header>
+    <main>
+    <section>
+        <div class="movie">
+            <img src="images/poster-the-substance-664ca00b33247.jpg" alt="Película 8">
+            <h2>The Substance</h2>
+        </div>
+        <div id="sinopsis">
+            <h2>Sinopsis</h2>
+            <p><span>La posibilidad de la eterna juventud está al alcance de la mano. Con un nuevo producto, denominado la sustancia, la vida de cualquier persona mejoraría sustancialmente. 
+                ¿Alguna vez has soñado una versión mejor de ti misma? Entonces, debes probar la sustancia. De esta forma, puedes generar otra versión de ti misma. Una versión mejorada: más joven, más bella, más perfecta. 
+                Solo tienes que compartir tu tiempo con esta nueva figura. Una semana para ti, otra semana para ella en un equilibrio perfecto de siete días. Parece fácil. Solo es necesario seguir las instrucciones. 
+                Claro que es inevitable pensar en las contraindicaciones. ¿Qué podría salir mal?</span></p>
+        </div>
+        <div>
+            <h2>FICHA TÉCNICA</h2>
+            <ul>
+                <li><strong>Género: Drama, Psicológico, Terror</strong></li>
+                <li><strong>Duración: 144 minutos.</strong></li>
+                <li><strong>Clasificación: +18</strong></li>
+            </ul>
+        </div>
+    </section>
+    <section class="section">
+        <button onclick="document.location='sillas8.html'">Reservar Sillas</button>
+        <button onclick="document.location='cartelera.html'">Ver cartelera</button>
+    </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Teatro APOLO. Derechos reservados.</p>
+    </footer>
+</body>
+</html>
